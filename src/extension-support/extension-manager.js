@@ -80,11 +80,10 @@ const builtinDevices = {
  */
 
 builtinExtensions.qrcode = () => require('../extensions/scratch3_qrcode');
-
 builtinExtensions.posenet2scratch = () => require('../extensions/scratch3_posenet2scratch');
-
 builtinExtensions.ml2scratch = () => require('../extensions/scratch3_ml2scratch');
 builtinExtensions.ifttt = () => require('../extensions/scratch3_ifttt');
+builtinExtensions.json = () => require('../extensions/scratch3_json');
 
 class ExtensionManager {
     constructor (runtime) {
