@@ -79,7 +79,9 @@ const builtinDevices = {
  * @property {Function} reject - function to call on failed worker startup
  */
 
-builtinExtensions['qrcode'] = () => require('../extensions/scratch3_qrcode');
+builtinExtensions.qrcode = () => require('../extensions/scratch3_qrcode');
+
+builtinExtensions.posenet2scratch = () => require('../extensions/scratch3_posenet2scratch');
 
 class ExtensionManager {
     constructor (runtime) {
