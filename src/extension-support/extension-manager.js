@@ -84,6 +84,7 @@ builtinExtensions.posenet2scratch = () => require('../extensions/scratch3_posene
 builtinExtensions.ml2scratch = () => require('../extensions/scratch3_ml2scratch');
 builtinExtensions.ifttt = () => require('../extensions/scratch3_ifttt');
 builtinExtensions.json = () => require('../extensions/scratch3_json');
+builtinExtensions.thingspeak = () => require('../extensions/scratch3_thingspeak');
 
 class ExtensionManager {
     constructor (runtime) {
