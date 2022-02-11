@@ -9,7 +9,7 @@ const blockIconURI = null;
 const defaultId = 'default';
 let theLocale = null;
 
-class gasoJSON {
+class JSON {
     constructor (runtime) {
         theLocale = this._setLocale();
         this.runtime = runtime;
@@ -432,4 +432,4 @@ class gasoJSON {
 
 }
 
-module.exports = gasoJSON;
+module.exports = JSON;
